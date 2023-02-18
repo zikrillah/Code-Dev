@@ -4,11 +4,18 @@
 - Fast API
 
 ## Start
-Install your pip:
+Install your venv:
 ```bash
 sudo apt install python3.10-venv
 ```
-Create your venv : venv <name>
+Create your venv : venv<name>
 ```bash
 python3 -m venv venv
 ```
+Open your project directory only and select the interpreter
+
+Install FASTAPI
+```bash
+pip install fastapi[all]
+```
+Fast API work with sequence coding order
