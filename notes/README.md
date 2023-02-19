@@ -51,7 +51,7 @@ def get_latest_post():
 If we request using ```http://127.0.0.1:8000/posts/latest``` trigger an error because the FastAPI first matching rule, so we need to reorder the code to avidong the error.
 
 ## Handling the response code
-Requirement from sastapi library:
+Requirement from fastapi library:
 - Response
 - status
 - HTTPException
