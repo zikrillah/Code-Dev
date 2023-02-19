@@ -32,7 +32,7 @@ Python dictionary model
     - ```@app.delete("/posts/{id}")```
 
 ## Convert data on fastAPI
-- We can directly convert type data on fatAPI using this command ```the def get_posts(id: int):```
+- We can directly convert type data on fatAPI using this command ```def get_posts(id: int):```
 
 ## Order is matter
 This code
@@ -72,7 +72,7 @@ but we can simplify using the **HTTPException**
                             detail=f"post with id: {id} was not found")
     ...
 ```
-For every methode you can change the status code by adding the status on the path ex:
+For every method you can change the status code by adding the status on the decorator ex:
 ```
 @app.post("/posts", status_code=status.HTTP_201_CREATED)
 ```
