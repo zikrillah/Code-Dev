@@ -28,7 +28,6 @@ def get_post():
 #     print(payload)
 #     return {"new_post": f"title {payload['title']} content: {payload['content']}"}
 
-
 @app.post("/posts")
 def post_validation(post_val: Post):
     post_dict = post_val.dict()
