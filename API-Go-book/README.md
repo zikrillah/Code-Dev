@@ -6,3 +6,4 @@ Objective:
 * WSL 2204
 * Go go1.21.2 linux/amd64
 * VS Code
+* Gin github.com/gin-gonic/gin v1.9.1
